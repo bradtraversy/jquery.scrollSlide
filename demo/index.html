@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ScrollSlide Demo</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<!--  Stylesheets -->
+    	<link rel='stylesheet' href='css/style.css' type='text/css'>
+
+    	<!-- JavaScripts -->
+    	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    	<script src="js/jquery.scrollslide.js"></script>
+    	<script>
+    		$(document).ready(function(){
+    			$('.slide-left-200').scrollSlide({
+				    direction   : 'left',
+				    scrollstart : 200
+				});
+
+				$('.slide-right-200').scrollSlide({
+				    direction   : 'right',
+				    scrollstart : 200
+				});
+
+				$('.slide-left-400').scrollSlide({
+				    direction   : 'left',
+				    scrollstart : 400
+				});
+
+				$('.slide-right-400').scrollSlide({
+				    direction   : 'right',
+				    scrollstart : 400
+				});
+    		});
+    	</script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">ScrollSlide Demo</h1>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="showcase">
+			<div class="container">
+				<h1>Main Showcase Area</h1>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="section-left">
+					<div class="slide-left-200">
+						<h2>Lorem ipsum dolor</h2>
+						<p>Praesent accumsan lacinia purus, eu aliquam mauris malesuada et. Ut vitae libero quis augue viverra lacinia vel quis leo. In interdum vehicula mi sit amet consectetur. Proin in ante accumsan. </p>
+						<a class="btn" href="#">Read More</a>
+					</div>
+				</div>
+				<div class="section-right">
+					<div class="slide-right-200">
+						<img src="img/iphone.png">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="dark">
+			<div class="container">
+				<div class="section-left">
+					<div class="slide-left-400">
+						<img src="img/imac.png">
+					</div>
+				</div>
+				<div class="section-right">
+					<div class="slide-right-400">
+						<h2>Lorem ipsum dolor</h2>
+						<p>Praesent accumsan lacinia purus, eu aliquam mauris malesuada et. Ut vitae libero quis augue viverra lacinia vel quis leo. In interdum vehicula mi sit amet consectetur. Proin in ante accumsan. </p>
+						<a class="btn" href="#">Read More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
