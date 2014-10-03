@@ -1,3 +1,10 @@
+/**
+ * @file
+ * @author {https://github.com/bradtraversy/jquery.scrollSlide}
+ * @license {http://opensource.org/licenses/MIT|MIT}
+ * @version 0.1.0
+ */
+
 (function($) {
 
     $.fn.scrollSlide = function(options) {

@@ -1,3 +1,10 @@
+/**
+ * @file
+ * @author {https://github.com/bradtraversy/jquery.scrollSlide}
+ * @license {http://opensource.org/licenses/MIT|MIT}
+ * @version 0.1.0
+ */
+
 (function($) {
 
     $.fn.scrollSlide = function(options) {
@@ -11,6 +18,7 @@
 
 		return this.each( function() {
 			var object = $(this);
+			
 			// Hide object initially
 			object.css('display','none');
 

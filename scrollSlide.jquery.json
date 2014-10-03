@@ -1,7 +1,7 @@
 {
     "name": "scrollSlide",
     "title": "jQuery ScrollSlide",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A plugin to run a slide animation at a specified scroll position.",
     "keywords": [
         "animation",
@@ -14,13 +14,13 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/bradtraversy/scrollslide/blob/master/LICENSE.txt"
+            "url": "https://github.com/bradtraversy/jquery.scrollSlide/blob/master/LICENSE.txt"
         }
     ],
     "dependencies": {
         "jquery": ">=1.9.0"
     },
-    "homepage": "https://github.com/bradtraversy/scrollslide",
+    "homepage": "https://github.com/bradtraversy/jquery.scrollSlide",
     "demo": "http://codedemos.com/scrollslide",
-    "docs": "https://github.com/bradtraversy/scrollslide"
+    "docs": "https://github.com/bradtraversy/jquery.scrollSlide"
 }
